@@ -1,0 +1,221 @@
+/* General reset */
+body, ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Header */
+.header {
+  background-color: #04032C;
+  padding: 10px 20px;
+  width: 1500px;
+  height: 110px;
+
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+/* Style for Login Button */
+.login-button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+
+}
+
+.login-button:hover {
+  background-color: rgb(167, 167, 80);
+  border-radius: 5px;
+}
+
+/* General Menu Styles */
+.menu {
+  display: flex;
+  margin-left:80px;
+  margin-top: 60px;
+  gap:20px;
+ 
+}
+
+.menu > li {
+  position: relative;
+
+}
+
+.menu > li > a {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  padding: 10px 15px;
+  display: block;
+  transition: background-color 0.3s;
+  font-size: 20px;
+ 
+
+}
+
+.menu > li > a:hover {
+  background-color: rgb(167, 167, 80);
+  border-radius: 5px;
+}
+
+/* Dropdown menu */
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #060606;
+  padding: 10px 0;
+  border-radius: 4px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  min-width: 150px;
+}
+
+.dropdown-menu li {
+  margin: 0;
+}
+
+.dropdown-menu a {
+  text-decoration: none;
+  color: white;
+  font-size: 0.9rem;
+  padding: 8px 15px;
+  display: block;
+  transition: background-color 0.3s;
+}
+
+.dropdown-menu a:hover {
+  background-color:rgb(167, 167, 80);
+ 
+
+  border-radius: 5px;
+}
+
+/* Show dropdown on click */
+.dropdown.open .dropdown-menu {
+  display: block;
+}
+
+/* Navbar container styling */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+/* Logo container styling */
+.logo-container {
+  flex-shrink: 0;
+  height: 30px;
+  width: 50px;
+  margin-top: -80px;
+}
+
+.logo { margin-left: -30px;
+  border-radius:15px;
+  height:95px;
+  width:115px;   
+}
+
+/* Main content styles */
+.dcontent {
+  /* Add margin-top to push content below the header */
+  padding: 20px;
+  flex: 1;
+}
+
+/* Slider container */
+.dslider-container {
+  overflow: hidden;
+  width: 40vw; /* Slider will occupy 40% of the screen width */
+  height: 60vh; /* Adjust height */
+  /* Fixed position to stay on the side of the screen */
+  top: 0px;
+   /* Push slider below the navbar */
+  right: 0; /* Align the slider to the right */
+  border-radius: 10px; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Optional shadow */
+  background-color: rgba(0, 0, 0, 0.5);
+  position: relative;
+  /* Slider container */
+}
+
+.dslider {
+  display: flex;
+  animation: slide 30s ease-in-out infinite;
+  width: 100%; /* Adjust to accommodate multiple slides */
+  height: 100%;
+}
+
+.dslide {
+  flex: 0 0 100%; /* Each slide takes up the full width of the container */
+  height: 100%; /* Each slide takes up the full height */
+  position: relative;
+}
+
+.dslide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure the entire image fits within the container */
+}
+
+
+
+
+
+
+
+@keyframes slide {
+  0% {
+    transform: translateX(0); /* Starting position */
+  }
+  25% {
+    transform: translateX(-100%); /* Move one slide to the left */
+  }
+  50% {
+    transform: translateX(-200%); /* Move two slides to the left */
+  }
+  75% {
+    transform: translateX(-300%); /* Move three slides to the left */
+  }
+  100% {
+    transform: translateX(0); /* Back to the starting position */
+  }
+}
+
+
+
+/* Footer styling */
+.dfooter {
+  background-color: #041a38;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  width: 98%;
+  position: relative;
+  bottom: 0;
+  width: 1472px;
+}
+
+h1 {
+  margin-top: 15px;
+  margin-right: 200px;
+  margin-left: 80px;
+}
+
+h2 {
+  margin-right: 600px;
+  font-size: 40px;
+}

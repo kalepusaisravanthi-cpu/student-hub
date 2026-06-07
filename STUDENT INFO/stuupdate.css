@@ -1,0 +1,271 @@
+/* styles.css */
+
+/* Container for the student form */
+.stu-container {
+  display: flex;
+  gap: 0;
+  margin-left: -60px;
+  margin-top: -90px;
+}
+
+/* Image container */
+.stu-image-container {
+  margin-top: 50px;
+  margin-left: 50px;
+  height: 650px;
+  width: 450px;
+  opacity: 100%;
+  box-shadow: 10px 0 5px -2px black;
+}
+
+/* Form container */
+.stu-form-container {
+  background-color: #D6d6d6;
+  height: 650px;
+  margin-top: 50px;
+}
+
+/* Form fieldset */
+.stu-form-fieldset {
+  width: 580px;
+  height: 630px;
+  margin-top: 0;
+}
+
+/* Legend text */
+.stu-form-legend {
+  font-size: 22px;
+  color: #f58f7c;
+  font-weight: bold;
+  text-shadow: 1px 1px 1.5px black;
+}
+
+/* Form input and select styles */
+.stu-input, .stu-select {
+  border-style: none;
+  height: 40px;
+  width: 250px;
+  box-shadow: 5px 5px 5px #4a7766;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+/* Button */
+.stu-form-button {
+  margin-left: 450px;
+  text-decoration: none;
+  border-style: none;
+  font-size: 20px;
+  color: white;
+  background: #f58f7c;
+  height: 50px;
+  width: 90px;
+  border-radius: 5px;
+}
+
+/* Aligning the label and input inside the form */
+.stu-label {
+  margin-left: 0;
+  margin-right: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*second form*/
+/* Container for the second step */
+.stu2-container {
+  display: flex;
+  gap: 0px;
+  margin-top: 90px;
+  margin-left: -60px;
+}
+
+/* Image styling */
+.stu2-image {
+  margin-top: 50px;
+  margin-left: 50px;
+  height: 650px;
+  width: 450px;
+  opacity: 100%;
+  box-shadow: 10px 0 5px -2px black;
+}
+
+/* Form container styling */
+.stu2-form-container {
+  background-color: #D6d6d6;
+  height: 650px;
+  margin-top: 50px;
+}
+
+/* Fieldset styling */
+.stu2-fieldset {
+  width: 580px;
+  height: 630px;
+  margin-top: 0px;
+}
+
+/* Styling for the legend */
+.stu2-legend {
+  font-size: 22px;
+  color: #f58f7c;
+  font-weight: bold;
+  text-shadow: 1px 1px 1.5px black;
+}
+
+/* Input and select field styling */
+.stu2-input, .stu2-select {
+  border-style: none;
+  height: 40px;
+  width: 250px;
+  box-shadow: 5px 5px 5px #4a7766;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+/* Icon styling */
+.fa-icon {
+  margin-left: -10px;
+}
+
+/* Button container styling */
+.stu2-button-container {
+  display: flex;
+}
+
+/* Button styling */
+.stu2-button {
+  text-decoration: none;
+  border-style: none;
+  font-size: 20px;
+  color: white;
+  background: #f58f7c;
+  height: 50px;
+  width: 90px;
+  border-radius: 5px;
+  margin-left: 30px;
+}
+
+/* Link styling within buttons */
+.stu2-link {
+  color: white;
+  text-decoration: none;
+}
+
+/* Adjustments for button link on the right */
+.stu2-button:last-child {
+    margin-left: 350px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*3,4 forms*/
+/* General Styles */
+#stu3, #stu4 {
+  display: flex;
+  gap: 0px;
+  margin-left: -60px;
+}
+
+#stu3 img, #stu4 img {
+  margin-top: 50px;
+  margin-left: 50px;
+  height: 650px;
+  width: 450px;
+  opacity: 100%;
+  box-shadow: 10px 0 5px -2px black;
+}
+
+fieldset {
+  width: 580px;
+  height: 630px;
+  margin-top: 0px;
+}
+
+legend div {
+  font-size: 22px;
+  color: #f58f7c;
+  font-weight: bold;
+}
+
+label {
+  margin-left: -10px;
+}
+
+input, select {
+  border-style: none;
+  height: 40px;
+  width: 250px;
+  box-shadow: 5px 5px 5px #4a7766;
+  font-size: 20px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+button {
+  text-decoration: none;
+  border-style: none;
+  font-size: 20px;
+  color: white;
+  background: #f58f7c;
+  height: 50px;
+  width: 90px;
+  border-radius: 5px;
+}
+
+button a {
+  color: white;
+  text-decoration: none;
+}
+
+button:hover {
+  background-color: #f58f7c;
+}
+
+form {
+  background-color: #D6d6d6;
+  height: 650px;
+  margin-top: 50px;
+}
+
+/* Form Layout */
+.form-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  width: 40px;
+}
+
+.form-group input, .form-group select {
+  width: 250px;
+}
+
+/* Button Layout */
+.buttons-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}

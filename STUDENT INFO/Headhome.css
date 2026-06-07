@@ -1,0 +1,152 @@
+/* General container styling */
+.faculty-container {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  background-color: #f5f5f5;
+  font-family: 'Arial', sans-serif;
+  width: 900px;
+  margin-top: 0px;
+  margin-left: -20px;
+}
+
+/* Header styling */
+.faculty-header {
+  background-color: #0e0436;
+  padding: 20px;
+  text-align: center;
+  border-radius: 8px;
+ 
+}
+
+.faculty-header-title {
+  margin: 0;
+  color: white;
+  font-size: 26px;
+  font-weight: bold;
+  margin-left: 60px;
+}
+
+/* Main content wrapper */
+.faculty-content-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-left: 350px;
+}
+
+/* Main content */
+.faculty-main-content {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Section title */
+.faculty-section-title {
+  font-size: 22px;
+  color: #04023a;
+  margin-bottom: 20px;
+  margin-left: 160px;
+}
+
+.faculty-profile-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  padding: 25px;
+  background-color: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  text-align: center;
+  margin-left: 200px; /* Centering */
+}
+
+
+/* Profile card hover effect */
+.faculty-profile-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Profile image container */
+.faculty-profile-image {
+  width: 120px;
+  height: 120px;
+  background-color: #ddd;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  background-position: center;
+  background-size: cover;
+}
+
+/* Name styling */
+.faculty-profile-name {
+  font-size: 20px;
+  color: #333;
+  margin: 10px 0;
+}
+
+/* Degree styling */
+.faculty-profile-degree {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+/* Date of Joining and Experience styling */
+.faculty-profile-doj,
+.faculty-profile-experience {
+  font-size: 14px;
+  color: #444;
+  margin: 5px 0;
+}
+
+.faculty-profile-doj strong,
+.faculty-profile-experience strong {
+  color: #333;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .faculty-header-title {
+    font-size: 22px;
+  }
+
+ 
+}
+
+@media (max-width: 480px) {
+  .faculty-container {
+    padding: 15px;
+  }
+
+  .faculty-header-title {
+    font-size: 18px;
+  }
+
+  
+}
+
+/* Profile image background */
+.faculty-profile-image {
+  width: 100px; /* Adjust the width as needed */
+  height: 100px; /* Adjust the height as needed */
+  background-image: url('https://tse2.mm.bing.net/th?id=OIP.No3PXyzbwJhVLFlN1Ve_yAHaIn&pid=Api&P=0&h=180');
+  background-size: cover;
+  background-position: center;
+  border-radius: 50%; /* Optional: to make it a circle */
+  margin-bottom: 15px;
+}
+.faculty-container {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  background-color: #f5f5f5;
+  font-family: 'Arial', sans-serif;
+  max-width: 900px; /* Change from fixed width */
+  width: 100%;
+  margin: 0 auto; /* Center the container */
+  overflow-x: hidden; /* Prevent horizontal overflow */
+}

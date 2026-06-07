@@ -1,0 +1,117 @@
+
+
+/* Container */
+.lf-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: fit-content; /* Full viewport height */
+  background:  transparent;
+  padding: 20px;
+  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.2);
+  z-index: -1;
+  margin-top: 0px;
+  margin-left: 200px;
+  width:500px;
+  margin-bottom: 10px;
+}
+
+/* Form Title */
+.lf-form-title {
+  margin-left: 100px;
+  font-size: 2rem; /* Larger size for a more impactful title */
+  margin-bottom: 30px; /* Slightly larger space below */
+  text-align: center; /* Center the title */
+  color: #150f71; /* Darker color for better readability */
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /* Modern and clean font */
+  font-weight: 400; /* Slightly lighter weight for a more elegant look */
+  letter-spacing: 1px; /* Add slight spacing between letters for better readability */
+  text-transform: uppercase; /* Capitalize for a professional, formal look */
+  line-height: 1.3; /* Adjust line-height for better spacing and readability */
+  padding-bottom: 10px; /* Padding to give space between title and the border */
+}
+ 
+
+/* Form */
+.lf-form {
+  margin-top: 10px;
+  margin-left: 130px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px #f2c4ce;
+  width: 450px;
+  height: fit-content;
+  max-width: 50%;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.lf-form:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.2);
+}
+
+/* Labels */
+.lf-label {
+  margin: 12px 0 5px;
+  font-weight: bold;
+  color: #333;
+  font-size: 1rem;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Input Fields */
+.lf-input {
+height: 20px;
+  margin-right: 0px;
+  padding: 12px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  color: #333;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+.lf-inputs {
+
+    padding: 12px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    color: #333;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+.lf-input:focus {
+  border-color: #064f26;
+  outline: none;
+  box-shadow: 0 0 8px rgb(26, 5, 91); /* Soft glow effect */
+}
+
+/* Submit Button */
+.lf-submit-btn {
+  padding: 12px 12px;
+  background-color: rgb(27, 8, 104);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  font-weight: bold;
+  margin-left: 130px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.lf-submit-btn:hover {
+  background-color: rgb(214, 204, 204);
+  color:rgb(30, 7, 82);
+  transform: scale(1.05);
+}
+
+.lf-submit-btn:active {
+  background-color: #e55e49; /* Darker shade when clicked */
+}

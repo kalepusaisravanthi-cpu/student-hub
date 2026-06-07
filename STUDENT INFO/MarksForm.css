@@ -1,0 +1,220 @@
+/* Base Style */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f7f9fc;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Main Form Container */
+.viewMarksPage .marksForm {
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+
+.viewheading{
+  text-align: center;
+  color: green;
+}
+/* Form Group for Pin Number, Year, and Button */
+.viewMarksPage .selectForm {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin: 0px 1in 0px 1in;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+/* Form Field Label */
+.viewMarksPage .selectForm label {
+  font-size: 16px;
+  color: #7f8c8d;
+  font-weight: 500;
+  margin-bottom: 8px;
+  display: block;
+  text-align: left;
+}
+
+/* Input, Select, and Button Styling */
+.viewMarksPage .selectForm input,
+.viewMarksPage .selectForm select,
+.viewMarksPage .selectForm button {
+  padding: 12px 16px;
+  font-size: 15px;
+  border-radius: 8px;
+  border: 1px solid #ccd0d5;
+  outline: none;
+  width: 100%;
+  max-width: 220px;
+  box-sizing: border-box;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Input and Select Focus Styles */
+.viewMarksPage .selectForm input:focus,
+.viewMarksPage .selectForm select:focus {
+  border-color: #3498db;
+  box-shadow: 0 0 10px rgba(52, 152, 219, 0.3);
+}
+
+/* Button Styling */
+.viewMarksPage .selectForm button {
+  background-color: #032a43;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease, transform 0.2s ease-in-out;
+  margin-top: 10px;
+}
+
+.viewMarksPage .selectForm button:hover {
+  background-color: #032a43;
+  transform: translateY(-2px);
+}
+
+.viewMarksPage .selectForm button:active {
+  transform: translateY(0);
+}
+/* Profile View Container */
+.viewprofile {
+  display: flex;
+  flex-direction: column; /* Stack the items vertically */
+  align-items: center; /* Center the items horizontally within the container / / Align items to the top */
+  gap: 10px;  /* Space between the image and text */
+  margin-top: 50px;  /* Optional: Add margin for spacing / / Position it absolutely */
+  margin-left: 10in; /* Align it to the right side */
+}
+
+/* Profile Image Styling */
+.imageprofile {
+  margin-left: 1in;
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;  /* Make the image circular */
+  object-fit: cover;  /* Ensure the image fills the circle properly */
+  border: 2px solid #032b45; 
+ margin-left: -910px;/* Optional: Add border around the image */
+}
+
+/* Profile Text Styling */
+.viewprofile div {
+  font-size: 16px;
+  color: #333;
+  font-weight: 500;
+  text-align: center; 
+  margin-left: -910px;
+ /* Center the text */
+}
+
+
+/* Spinner for Loading */
+.viewMarksPage .spinnerContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  color: #022237;
+  margin-top: 30px;
+}
+
+/* Error Message */
+.viewMarksPage .error {
+  color: #e74c3c;
+  font-size: 16px;
+  margin-top: 15px;
+  text-align: center;
+}
+
+/* Table Styling */
+.viewMarksPage .marksTable {
+  width: 80%;  /* Decreased width */
+  margin: 20px auto;
+  border-collapse: collapse;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+}
+
+.viewMarksPage .marksTable th,
+.viewMarksPage .marksTable td {
+  padding: 10px 14px; /* Reduced padding */
+  text-align: center;
+  font-size: 14px;
+  border: 1px solid #e4e9f2;
+  background-color: #f9f9fb;
+}
+
+/* Header Style */
+.viewMarksPage .marksTable th {
+  background-color: #042c47;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Table Row Styling */
+.viewMarksPage .marksTable tr:nth-child(even) td {
+  background-color: #f4f6f9;
+}
+
+.viewMarksPage .marksTable tr:hover td {
+  background-color: #ecf0f1;
+}
+
+/* Last Column Style */
+.viewMarksPage .marksTable td:last-child {
+  text-align: center;
+}
+
+/* Responsive Table Styling */
+@media screen and (max-width: 768px) {
+  .viewMarksPage .selectForm {
+      flex-direction: column;
+      align-items: center;
+      gap: 15px;
+  }
+
+  .viewMarksPage .marksTable th,
+  .viewMarksPage .marksTable td {
+      font-size: 12px;
+      padding: 8px;
+  }
+
+  .viewMarksPage .marksTable {
+      width: 100%;
+      font-size: 12px;
+  }
+}
+
+/* General Styling for Layout and Responsiveness */
+.viewMarksPage .marksForm {
+  max-width: 95%;
+  padding: 30px;
+}
+
+.viewMarksPage .marksTable th,
+.viewMarksPage .marksTable td {
+  padding: 12px 16px;
+}
+
+.viewMarksPage .selectForm input,
+.viewMarksPage .selectForm select,
+.viewMarksPage .selectForm button {
+  max-width: 220px;
+}
+
+.viewMarksPage .selectForm {
+  gap: 20px;
+}
+
+.viewMarksPage .marksForm h2 {
+  font-size: 26px;
+}

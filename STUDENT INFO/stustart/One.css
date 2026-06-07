@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .App {
+    text-align: center;
+  }
+  
+  .content {
+    padding: 20px;
+  }
+  
+  .section {
+    display: none;
+  }
+  
+  #home {
+    display: block;
+  }
+  
+  h1 {
+    color: #2a0c8d;
+  }
+  
+  p {
+    color: #faf8f8;
+  }
+  

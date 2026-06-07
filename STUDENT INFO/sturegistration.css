@@ -1,0 +1,558 @@
+#box
+{ background-color: #ece7e2;
+  height: 450px;
+  width: 350px; 
+  font-weight: bold; 
+  margin-top: 130px;
+  
+ 
+}
+
+app-container
+#but{ background-color: #ece7e2;
+color:black}
+#form
+{
+  font-size: 20px;
+  border-style: none;
+  
+}
+#l{margin-left: 15px;
+ margin-top:-110px;
+
+  text-decoration: none;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ font-size: larger;
+
+ text-shadow: 2.5px 2.5px 0.5px rgb(5, 47, 5);
+
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* General Styling */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+/* Header Styling  background:linear-gradient(90deg in oklab,#d6d6d6, #4f4f51, #d6d6d6, #052d56);
+  */
+ 
+.header {
+  background-color: #4f4f51;
+   color: rgb(236, 230, 230);
+  text-align: center;
+  font-size: 1.5rem;
+  height: 130px;
+  width:1700px; 
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+#d{
+ 
+ background:linear-gradient(90deg in oklab,#d6d6d6, #4f4f51, #d6d6d6);
+ 
+
+  
+}
+.logo {
+  height: 80px;
+  margin-right: 695px;
+  margin-top:9px;
+   
+}
+h1{
+  margin-top: 2px;
+  padding-bottom:2px;
+  padding-top:0;
+}
+.logo,h1 {
+  display:inline-block;
+  
+}
+    
+/* Main Layout */
+.content-layout {
+  display: flex;
+  flex-grow: 1;
+}
+
+/* Sidebar Styling */
+.sidebar {
+  
+  width: 250px;
+  background-color: whitesmoke;
+  color: rgb(11, 11, 11);
+  padding: 15px;
+  box-shadow: 2px 0 5px rgba(3, 51, 91, 0.1);
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #c6c6c9;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.sidebar li:hover {
+  background-color:#8C8C8F;
+  width: 230px;
+ 
+}
+
+.sidebar li.active {
+  background-color:  #050438;
+  color: whitesmoke;
+  width: 230px;
+}
+
+
+
+
+
+
+
+
+
+
+/* Main Content Styling */
+.main-content {
+  flex-grow: 1;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+#im{margin-top: 18px;
+  margin-left: 18px;
+  border-radius:15px;
+  height:95px;
+  width:95px; 
+  box-shadow: 2px 2px 1px black  ;
+}
+#d{border-radius: 30px;
+  height: 140px;
+  width:1520px;
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  background:linear-gradient(90deg in oklab, #4f4f51,#d6d6d6, #4f4f51);
+  position:absolute;
+
+  } 
+  #a{
+    height: 50px;
+    width: 50px;
+  }
+  #b{
+    height: 55px;
+    width: 55px;
+    
+  }
+  #c{
+    height: 57px;
+    width: 59px;
+  }
+  #dive{
+    border-radius: 20px;
+   height: 230px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    background:linear-gradient(90deg in oklab, #023D54, #359a95,#94dea5,#ffff66) ;
+    } 
+    #ro tr:nth-child(even)
+{
+background-color:rgb(253, 253, 253);
+
+}
+#ro tr:nth-child(odd)
+{
+background-color:#e7e5e1;
+
+
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.border{
+   width: 100%;
+   height: 5px;
+   background-color: #000;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+  .lf-form {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .lf-submit-btn {
+    width: 100%;
+  }
+}
+
+
+
+/* General Layout */
+.hod-dashboard {
+  display: flex;
+  height: 100vh;
+}
+
+/* Sidebar */
+.hod-sidebar {
+  width: 250px;
+  background-color: #2c3e50;
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.hod-sidebar-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.hod-sidebar-menu {
+  list-style-type: none;
+  padding: 0;
+}
+
+.hod-sidebar-item {
+  padding: 15px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.hod-sidebar-item:hover {
+  background-color: #34495e;
+}
+
+.hod-sidebar-item.active {
+  background-color: #16a085;
+}
+
+.hod-sidebar-item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+/* Right Content */
+.hod-content {
+  flex-grow: 1;
+  padding: 30px;
+  background-color: #ecf0f1;
+}
+
+.hod-welcome {
+  text-align: center;
+}
+
+.hod-welcome h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.hod-welcome p {
+  font-size: 1.2rem;
+  color: #7f8c8d;
+}
+
+.hod-section {
+  padding: 20px;
+  background:  rgba(142, 158, 105, 0.416);
+  height: 94vh;
+  overflow-y: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.hod-section h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.hod-section p {
+  font-size: 1.2rem;
+  color: #7f8c8d;
+}
+
+
+
+
+/* Container */
+.ld-container {
+  margin-top: -90px;
+  display: flex;
+  flex-direction: column;
+  align-items: start baseline;
+  justify-content: left;
+  padding: 40px;
+  background-color: transparent;
+}
+
+/* Title */
+.ld-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #4f4f51;
+  margin-bottom: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Button Container */
+.ld-button-container {
+  display: flex;
+  flex-wrap: wrap; /* Allow buttons to wrap into rows */
+  justify-content: space-between; /* Space buttons evenly */
+  gap: 32px; /* Space between each button wrapper */
+}
+
+/* Style for each button wrapper */
+.ld-button-wrapper {
+  flex: 0 0 20%; /* Take up 30% of the row (3 buttons per row) */
+  height: 250px;
+  width:250px; /* Adjust height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 2px solid black; /* Border for button wrapper */
+  background-color: transparent; /* Transparent background */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Box shadow */
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effect for button wrapper */
+.ld-button-wrapper:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+}
+
+/* Style for the button itself */
+.ld-button {
+  height: 120px;
+  width: 150px;
+  align-items: center;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #f2c4ce;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+/* Hover effect for button */
+.ld-button:hover {
+  background-color: #f9a2b4;
+
+}
+
+/* Style for user icon */
+.ld-user {
+  margin-right: 10px;
+  font-size: 50px;
+}
+
+/* Modal styling */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 1200px;
+  margin-left: 180px;
+  text-align: center;
+}
+
+.close-modal {
+  margin-top: 10px;
+  padding: 10px 15px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  background: red;
+  width: 200px;
+  height: 40px;
+}
+
+.close-modal:hover {
+  background-color: red;
+  width: 210px;
+  height: 50px;
+  transition: height width 0.2s ease;
+}
+
+.Model-div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+    #a{
+      background-color: rgba(0, 0, 0,0.3);
+    }
+ #video{
+    height: 1900;
+    width: 100%;
+    top:"0px";
+    background-size: cover;
+    position: fixed;
+    z-index: -1;  
+ }
+ #sal3{
+  background: linear-gradient(90deg in oklab, #d2e4e9, #95c3cf,#7cb6c4,#4da3b9);
+ }
+
+ #sal{
+  background: linear-gradient(90deg in oklab, #d5dbcb,#c9deb3,#bbdc97,#a6d772);
+ }
+ 
+ #sal1{
+  background: linear-gradient(90deg in oklab, #a7d2ca, #98bcb6,#92b9b2,#089d82);
+ }
+ 
+ #sal2{
+  background: linear-gradient(90deg in oklab, #12526c  ,#6d96a6, #a9c4cf,#ecf1f4);
+
+ }
+ #singid{
+  height: 580px;
+  width: 420px;
+  background-color:#ece7e2;
+border-radius: 15px;
+border-color:black;
+border-style: solid;
+box-shadow:3px 3px 2px #4a7766;
+margin-left: 500px;
+ }
+#body{
+  background-color: #dbe8dd;
+}
+ #manid{
+  height: 480px;
+  width: 420px;
+  background-color:#c2dfd4;
+border-radius: 15px;
+border-color:black;
+border-style: solid;
+box-shadow:3px 3px 2px #4a7766;
+margin-left: 500px;
+ }
+ 
+ #getsing{
+  height: 370px;
+  width: 370px;
+  background-color:#ccf0ef;
+border-radius: 15px;
+border-color:black;
+border-style: solid;
+box-shadow:3px 3px 2px #4a7766;
+margin-left: 500px;
+ }

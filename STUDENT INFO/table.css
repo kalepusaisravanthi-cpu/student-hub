@@ -1,0 +1,25 @@
+
+#row tr:nth-child(even)
+{
+background-color: white;
+
+}
+#row tr:nth-child(odd)
+{
+background-color:#d6d6d6;
+
+
+}
+	tr{
+		color:"black"
+	}
+	#row tr:hover:nth-child(even) 
+	{
+		background-color:whitesmoke;
+	
+	}
+	#row tr:hover:nth-child(odd) 
+	{
+		background-color:whitesmoke;
+	
+	}

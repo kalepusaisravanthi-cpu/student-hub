@@ -1,0 +1,80 @@
+/* Styling for the main container */
+.one-stu-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Styling for the heading */
+  .one-stu-container h2 {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Styling for the student details */
+  
+ 
+  
+
+  /* Wrapper for the entire student details */
+.student-details-wrapper {
+  display: flex;
+  flex-wrap: wrap;  /* Allows wrapping of items on smaller screens */
+  gap: 20px;        /* Adds space between the items */
+  justify-content: flex-start; /* Align items to the start */
+  margin-top: 20px;  /* Adds space above */
+  padding: 20px;     /* Adds padding inside the wrapper */
+}
+
+/* Individual student detail container */
+.student-detail {
+  flex: 1 1 250px;       /* Makes the items flexible, with a minimum width of 250px */
+  min-width: 250px;      /* Ensures the items don't shrink too much */
+  margin-bottom: 15px;   /* Adds space between rows */
+  padding: 15px;         /* Padding inside each detail box */
+  background-color: #f4f4f9; /* Light background color for details */
+  border-radius: 10px;   /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  display: flex;         /* Flexbox for text alignment */
+  flex-direction: column; /* Align text vertically inside the box */
+  justify-content: flex-start; /* Align content at the top */
+}
+
+/* Styling for the label inside each detail box */
+.student-detail strong {
+  font-weight: 600;    /* Bold text for labels */
+  color: #333;         /* Dark text color */
+  margin-bottom: 8px;  /* Space below the label */
+  font-size: 16px;     /* Slightly larger font size for better readability */
+}
+
+/* Styling for the value of each student detail */
+.student-detail span {
+  font-size: 14px;    /* Slightly smaller font for the value */
+  color: #555;        /* Darker grey for value text */
+  word-wrap: break-word; /* Ensures long words break and do not overflow */
+}
+
+
+  
+  /* Styling for the error message */
+  .error-message {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Styling for the loading message */
+  .loading-message {
+    text-align: center;
+    font-size: 18px;
+    color: #007bff;
+    margin-top: 20px;
+  }
+  

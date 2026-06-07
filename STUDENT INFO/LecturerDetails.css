@@ -1,0 +1,35 @@
+body {
+    background-size: cover;
+    margin-right: 0px;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevents horizontal scrolling */
+    background-size: cover;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .flex-container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-left: 90px;
+ 
+  }
+  
+  .id1 {
+    margin-right: 100px;
+    margin-top: 10px;
+    border: solid lightblue;
+    padding: 70px;
+    max-width: 130px;
+    height: 200px;
+    border-radius: 25px;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/000/625/844/non_2x/geometric-abstract-light-blue-background-for-website-wallpapers-bussines-templates-vector.jpg");
+    outline: darkblue solid 4px;
+  }
+  
+  
+  

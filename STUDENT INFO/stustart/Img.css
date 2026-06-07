@@ -1,0 +1,15 @@
+.image-container {
+ 
+   
+    justify-content: center; /* Horizontally center */
+    align-items: center; /* Vertically center */
+    height: 100vh; /* Make it take full viewport height */
+  }
+  
+  .image-container img {
+    max-width: 100%; /* Ensures the image fits within its container */
+    max-height: 80vh; /* Prevents it from being too large */
+    border-radius: 10px; /* Optional: Adds rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Adds a shadow effect */
+  }
+  

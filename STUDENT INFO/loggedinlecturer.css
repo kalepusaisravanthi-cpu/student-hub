@@ -1,0 +1,80 @@
+/* loggedinstudent.css */
+
+/* General container styling */
+.one-lecturer-container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  /* Styling for individual lecturer details */
+  .lecturer-detail {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .lecturer-detail strong {
+    font-weight: bold;
+    color: #2c3e50;
+  }
+  
+  .lecturer-detail {
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    margin-bottom: 15px;
+  }
+  
+  .lecturer-detail:hover {
+    background-color: #f0f0f0;
+  }
+  
+  /* Error and loading messages */
+  .error-message,
+  .loading-message {
+    text-align: center;
+    font-size: 18px;
+    color: #e74c3c;
+    margin-top: 30px;
+  }
+  
+  .loading-message {
+    color: #3498db;
+  }
+  
+  .error-message {
+    color: #e74c3c;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .one-lecturer-container {
+      width: 90%;
+      padding: 15px;
+    }
+  
+    h2 {
+      font-size: 20px;
+    }
+  
+    .lecturer-detail {
+      font-size: 16px;
+      color: black;
+    }
+  }
+  

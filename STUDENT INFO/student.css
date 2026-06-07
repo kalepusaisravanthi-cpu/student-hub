@@ -1,0 +1,37 @@
+.projectreg {
+    padding: 20px;
+    max-width: 550px;
+    margin: 50px auto;
+    background-color: #b4dce5;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#head h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#info div {
+    margin-bottom: 15px;
+}
+
+#info label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#info input {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#info input:focus {
+    border-color: #cf3777;
+    outline: none;
+}
